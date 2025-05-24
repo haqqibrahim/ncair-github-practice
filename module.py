@@ -11,7 +11,7 @@ def calculator(a, b, operator):
         return a * b
     elif operator == '/':
         if b == 0:
-            raise ValueError("Division by zero is not allowed.")
+            raise ValueError("Division by zero is not allowed here.")
         return a / b
     else:
         raise ValueError(f"Invalid operator: {operator}")
